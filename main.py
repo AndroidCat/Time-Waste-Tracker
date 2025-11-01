@@ -4,7 +4,7 @@ Time Waster Tracker - 认真地什么都不做。
 
 import tkinter as tk
 from tkinter import messagebox
-import time, json, os, random
+import time, json, os, random, sys
 from datetime import datetime
 
 DATA_FILE = "waste_data.json"
@@ -219,3 +219,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = TimeWasterApp(root)
     root.mainloop()
+
